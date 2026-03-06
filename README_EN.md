@@ -1,6 +1,6 @@
 # TruckBites API
 
-[![English](https://img.icons8.com/color/48/great-britain.png )](README_EN.md)  [![Español](https://img.icons8.com/color/48/spain.png)](README_ES.md)
+[![English](https://img.icons8.com/color/48/great-britain.png )](README_EN.md)  [![Español](https://img.icons8.com/color/48/spain.png)](README.md)
 
 The TruckBites API is a RESTful web service built with Spring Boot and Java, designed to manage food trucks, menus, orders, users, locations, and notifications for the TruckBites platform. It uses a MySQL database with the proyectoad schema and provides endpoints for CRUD operations, location-based searches, and order analytics. The API supports JSON payloads and is tested with curl commands for both functionality and error handling.
 
