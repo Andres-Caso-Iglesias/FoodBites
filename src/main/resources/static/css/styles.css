@@ -1,0 +1,162 @@
+/* Estilos personalizados para Truck Bites */
+
+/*fuente titulos*/
+@font-face {
+	font-family:agresiva;
+	src: url(../fonts/edosz.ttf);
+}
+.alternative-text{
+	font-family: arial;
+}
+.text{
+	font-family: agresiva;
+}
+/* Colores principales */
+:root {
+    --primary-color: #f28c38; /* Naranja vibrante */
+    --secondary-color: #1a1a1a; /* Negro oscuro */
+    --background-color: #fff3e6; /* Fondo claro con tono cálido */
+}
+
+/* Fondo general */
+body {
+    background-color: var(--background-color);
+    font-family: 'Arial', sans-serif;
+    color: var(--secondary-color);
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: var(--secondary-color) !important;
+}
+
+.nav-item{
+	font-family:agresiva;
+	font-size: 3em;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Tarjetas de food trucks y menús */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Botones */
+.btn{
+    background-color: var(--primary-color);
+}
+.btn-primary {
+
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #d97a2f;
+    border-color: #d97a2f;
+}
+
+/* Formularios */
+.form-control {
+    border-color: var(--secondary-color);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(242, 140, 56, 0.5);
+}
+
+/* Lista de notificaciones */
+.list-group-item {
+    background-color: #ffffff;
+    border-color: var(--secondary-color);
+}
+
+/* Encabezados */
+h1, h5 {
+    font-family: agresiva;
+    text-shadow: 2px 2px 6px var(--primary-color);
+    color: var(--secondary-color);
+}
+h2 {
+    font-family: agresiva;
+    color: #1a1a1a;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 6px var(--primary-color);
+}
+h3 {
+	font-family: agresiva;
+    color: #1a1a1a;
+	font-size: 40px;
+	text-align: center;
+	text-shadow: 2px 2px 6px var(--primary-color);
+}
+
+.title-page {
+	font-family: agresiva;
+    font-size: 20px;
+    text-align: center;
+    margin: 4px;
+    text-shadow: 2px 2px 6px var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+
+    /* Ajustes responsivos para las tablas */
+.table-responsive {
+    margin-top: 1rem;
+}
+.table {
+    font-size: 0.9rem;
+}
+.table th, .table td {
+    vertical-align: middle;
+    padding: 0.75rem;
+}
+.pedido-id-col {
+    width: 10%;
+    text-align: center;
+}
+.foodtruck-col {
+    width: 20%;
+}
+.items-col {
+    width: 30%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.monto-col {
+    width: 15%;
+    text-align: right;
+}
+.estado-col {
+    width: 15%;
+    text-align: center;
+}
+.fecha-col {
+    width: 20%;
+}
+}
